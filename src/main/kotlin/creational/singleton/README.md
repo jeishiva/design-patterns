@@ -23,7 +23,7 @@ Singleton provides a clean solution when:
 
 ---
 
-## 💡 Where You’ll See It (Top 3 Use Cases)
+## 💡 Real-World Applications
 
 1. **Analytics Engine Instance**  
    Ensures a single event collector is initialized and used app-wide.
@@ -43,8 +43,5 @@ Singleton provides a clean solution when:
 
 - **Makes unit testing harder.**  
   Singletons introduce hidden dependencies, making test setup and mocking difficult unless designed carefully (e.g., using interfaces or dependency injection).
-
-- **Overuse leads to implicit shared state.**  
-  Excessive reliance on Singletons can degrade architecture into a **global state soup**, making it harder to reason about behavior and increasing the risk of side effects.
 
 ---

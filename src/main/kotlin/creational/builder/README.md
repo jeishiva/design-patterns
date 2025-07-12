@@ -38,10 +38,10 @@ The Builder pattern allows:
 
 ---
 
-## 💡 Where You’ll See It (Top 3 Use Cases)
+## 💡 Real-World Applications
 
-1. **RTCEngine Setup**  
-   Helps configure various features like audio, video, stream quality, fallback rules in a readable and modular way.
+1. **Complex Object Construction(e.g., Analytics Engine, RTC Engine)**  
+   Ideal for configuring objects with many parameters such as audio, video, stream quality, and fallback rules — making the setup readable, modular, and less error-prone.
 
 2. **HTTP Request Objects (e.g., OkHttp, Retrofit)**  
    Used to construct request objects with optional headers, body types, and timeout settings.

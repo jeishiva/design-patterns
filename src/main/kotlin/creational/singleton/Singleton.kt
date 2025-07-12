@@ -44,6 +44,7 @@ class CustomAnalyticsEngine private constructor() : AnalyticsEngine {
     }
 
     companion object {
+        // Uses @Volatile annotation to ensure visibility across threads
         @Volatile
         private var instance: CustomAnalyticsEngine? = null
 
