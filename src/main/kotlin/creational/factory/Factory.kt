@@ -18,7 +18,7 @@ interface Video {
 }
 
 /**
- *  we intentionally avoided when creating instances of the Video class
+ *  we intentionally avoided when/if-else logic for creating instances of the Video class
  *  as it violates the Open Closed Principle
  */
 sealed class VideoType {
