@@ -14,19 +14,18 @@ class DefenseFacade(
     private val coordinator: EvacuationCoordinator
 ) {
     fun respondToThreat() {
-
-        println("Ballistic threat detected. Activating defense protocol...\n")
+        println("Ballistic threat detected. Activating defense protocol...")
         notifier.alertGovernment()
         missileLauncher.launchInterceptor()
         coordinator.notifyPoliceStations()
-        println("\n✅ Response sequence completed.\n")
+        println("Response sequence completed.")
     }
 }
 
 // Subsystem 1: Missile Launcher
 class MissileLauncher {
     fun launchInterceptor() {
-        println("🚀 Interceptor missile launched to neutralize threat.")
+        println("Interceptor missile launched to neutralize threat.")
     }
 }
 
