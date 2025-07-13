@@ -1,6 +1,6 @@
 # 🧩 Flyweight Pattern
 
-**Pattern Type:** Structural
+### **Pattern Type:** Structural
 
 ---
 
@@ -31,13 +31,13 @@ The Flyweight Pattern:
 
 ---
 
-## 💡 Where This Pattern Shines
+## 💡 Real-World Examples
 
 1. **Game Object Rendering**  
    Trees, enemies, NPCs, bullets — reuse textures, shapes, or styles while changing position or rotation per instance.
 
 2. **Map & Simulation Engines**  
-   Rendering 100K+ road signs or POIs with shared metadata but unique coordinates and zoom levels.
+   Rendering 100K+ road signs with shared metadata but unique coordinates.
 
 3. **Animation Pipelines**  
    Repeating particles, frames, or visual components with minimal memory footprint.

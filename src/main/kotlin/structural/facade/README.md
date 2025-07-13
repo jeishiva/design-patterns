@@ -1,6 +1,6 @@
 # 🧩 Facade Pattern
 
-**Pattern Type:** Structural
+### **Pattern Type:** Structural
 
 ---
 
@@ -31,7 +31,7 @@ The Facade Pattern:
 
 ---
 
-## 💡 Where This Pattern Shines
+## 💡 Real-World Applications
 
 1. **Military & Emergency Systems**  
    Coordinate radar, missile launchers, civil defense, and public alert systems through a unified interface.
@@ -40,7 +40,7 @@ The Facade Pattern:
    Wrap fraud check, wallet debit, invoice generation, and SMS confirmation under one method: `processPayment()`.
 
 3. **Media Conversion Tools**  
-   Convert videos using audio extractors, encoders, thumbnailers — exposed through `convertToMp4()`.
+   Convert videos using audio extractors, encoders — exposed through `convertToMp4()`.
 
 4. **Mobile App Initializers**  
    On app startup: fetch user data, apply theming, load preferences, initialize SDKs — all through a single `AppInitializer.init()`.

@@ -1,6 +1,6 @@
 # 🧩 Proxy Pattern
 
-**Pattern Type:** Structural
+### **Pattern Type:** Structural
 
 ---
 

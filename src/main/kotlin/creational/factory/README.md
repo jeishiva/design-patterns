@@ -1,6 +1,6 @@
 # 🧩 Factory Pattern
 
-**Pattern Type:** Creational
+## **Pattern Type:** Creational
 
 ---
 
